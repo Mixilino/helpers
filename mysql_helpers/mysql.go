@@ -1,10 +1,10 @@
 package mysql_helpers
 
 import (
-"github.com/go-sql-driver/mysql"
-"strings"
-"users_microservice/logger"
-"users_microservice/utils/errs"
+	"github.com/Mixilino/helpers/errs"
+	"github.com/Mixilino/logger_helper/logger"
+	"github.com/go-sql-driver/mysql"
+	"strings"
 )
 
 const (
