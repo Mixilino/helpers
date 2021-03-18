@@ -38,7 +38,7 @@ func (e restErr) Causes() []interface{} {
 	return e.ErrCauses
 }
 
-func NewRestEErr(message string, status int, err string, causes []interface{}) RestErr {
+func NewRestErr(message string, status int, err string, causes []interface{}) RestErr {
 	return restErr{
 		ErrMessage: message,
 		ErrStatus:  status,
